@@ -1,0 +1,17 @@
+{
+  "name": "multi-auto-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "puppeteer": "^5.2.1",
+    "puppeteer-cluster": "^0.22.0"
+  }
+}
