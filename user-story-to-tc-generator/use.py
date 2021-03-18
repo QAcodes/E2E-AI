@@ -1,3 +1,6 @@
+# Enter pip install -r requirements.txt
+# RUN CMD as admin then enter: download_use.sh to download USE pre-trained Model
+
 import tensorflow.compat.v1 as tf
 import nltk
 tf.disable_v2_behavior()
@@ -23,7 +26,6 @@ seaborn==0.9.0
 matplotlib==3.1.1
 pandas==0.25.1
 '''
-
 
 # load universal sentence encoder module
 def load_USE_encoder(module):
